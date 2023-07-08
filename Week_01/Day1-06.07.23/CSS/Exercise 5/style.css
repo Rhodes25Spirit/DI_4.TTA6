@@ -1,0 +1,19 @@
+#blue {
+    color: blue;
+}
+
+#UpBold li {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#pink {
+    background-color: pink;
+    color: white;
+}
+
+#lightB {
+    margin: 20px;
+    padding: 5px;
+    background-color: lightblue;
+}

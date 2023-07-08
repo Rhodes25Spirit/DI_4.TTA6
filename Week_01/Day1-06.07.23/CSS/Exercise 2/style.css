@@ -1,0 +1,51 @@
+h1 {
+    font-weight: bolder;
+    color: red;
+    text-decoration: brown wavy underline;
+    text-decoration-thickness: 3px;
+}
+
+#Instruction {
+    border-bottom: 2px dashed blue;
+    border-bottom-width: 3px;
+    border-end-end-radius: 80px 80px;
+    margin-right: 800px;
+    border-end-end-radius: 250px 100px;
+    direction: rtl;
+}
+
+#styleIT {
+    text-align: center;
+    margin: 70px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Grandstander', cursive;
+}
+
+#question {
+    background-image: linear-gradient(to right, rgba(109, 48, 250, 0), rgba(109, 48, 250, 1));
+    margin: 70px;
+    padding: 25px;
+    border-left: 2px solid black;
+    font-size: 35px;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    height: 60px;
+    width: 40px;
+
+    /* content: size:720px x 60px ; */
+    /* decaler input du texte  */
+}
+
+#BoxM {
+    width: 300px;
+    padding: 20px;
+    border: 10px solid rgb(28, 14, 232);
+    margin: 15px;
+}

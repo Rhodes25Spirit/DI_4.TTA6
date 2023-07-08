@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,300;0,500;1,100&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page</title>
+    <img class="background" src="amazon.jpg">
+    <title>W1D1_Gold</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
-        <p id="title">Start bootstrap</p>
-        <button type="button button-sign-in" class="btn btn-primary">Sign in</button>          
-    </nav>
-    <div id="main-container">
-        <section id="text-and-search-bar">
-            <h1>Build a landing page for your business or project and generate more leads</h1>
-            <section id="sign-in">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="email" placeholder="Sign in" aria-label="Sign in">
-                    <button class="btn btn-primary" type="submit">Sign up!</button>
-                </form>
-            </section>          
-        </section>
-        <div id="icons-section">
-            <div class="column-div">
-                <img src="display.svg" alt="responsive">
-                <h6>Fully responsive</h6>
-                <p>This theme will look great at any device, no matter the size!</p>
-            </div>
-            <div class="column-div">
-                <img src="map.svg" alt="bootstrap ready">
-                <h6>Bootstrap 4 Ready</h6>
-                <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
-            </div>
-            <div class="column-div">
-                <img src="check.svg" alt="easy">
-                <h6>Easy to Use</h6>
-                <p>Ready to use with your own content or customize the source files!</p>
-            </div>
-        </div>      
+    <div class="background">
+        <div class="transbox">
+            <p>Built a landing page for your business or project and generate more leads!</p>
+            <p class="form">
+            <form style="text-indent: 40px;">
+                <label>Full Name:</label><input type="text" required size="70" value="Full Name"><br>
+                <!-- Transbox a repositionner sur l'image Amazone -->
+
+
+                <label>Send me the book</label><input type="email" value="@mail">
+                <input id="submit" value="Send request">
+            </form>
+            </p>
+        </div>
+    </div>
+    <div id="element" <h3>Find your Birth Element</h3>
+        <span>
+            Air
+            <p>
+                <a href="Air.webp"></a>
+                <img src="Air.webp" alt="Earth" </p>
+            </p>
+        </span>
+        <span>
+            Earth
+            <p>
+                <a href="Earth.webp"></a>
+                <img src="Earth.webp" alt="Earth" </p>
+        </span>
+        <span>
+            Fire
+            <p>
+                <a href="Feu.webp"></a>
+                <img src="Feu.webp" alt="Earth" </p>
+            </p>
+        </span>
+        <span>
+            Water
+            <p>
+                <a href="Eau.webp"></a>
+                <img src="Eau.webp" alt="Earth" </p>
+            </p>
+            <!-- Mettre les 4 images en carré -->
+        </span>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,31 @@
+#blue {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    /* padding: 5px; */
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-color: blue;
+}
+
+#white {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    /* padding: 5px; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+#red {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    /* padding: 5px; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: red;
+}
