@@ -1,4 +1,14 @@
 /* https: //www.w3schools.com/css/tryit.asp?filename=trycss_transparency */
+.background {
+    position: relative;
+}
+
+.transbox {
+    position: absolute;
+    top: -370px;
+    left: 105px;
+}
+
 div.background {
     background-repeat: repeat;
     /* position: absolute; */
@@ -7,6 +17,7 @@ div.background {
     right: 150px;
     bottom: 45px; */
     opacity: 1;
+
     border: 2px solid rgb(29, 132, 6);
 }
 
@@ -15,15 +26,12 @@ div.transbox {
     background-color: #ffffff;
     border: 1px solid rgb(29, 132, 6);
     opacity: 0.6;
-    /* position: absolute;
-    top: 45px;
-    left: 110px;
-    right: 1780px;
-    bottom: 260px; */
+
+
 }
 
 /* text-align: center; */
-}
+/* } */
 
 div.transbox p {
     margin: 5%;
@@ -32,6 +40,10 @@ div.transbox p {
     /* color: whitesmoke; */
     color: black;
 
+}
+
+.transbox {
+    margin: 0 auto;
 }
 
 #submit {
@@ -60,13 +72,21 @@ div.transbox p {
     justify-content: space-around;
 }
 
-span {
+.elements {
     text-transform: uppercase;
+    /* line-height: 2.5; */
     font-size: 22px;
     color: darkslategrey;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
 
+#container {
+    border: 1px solid black;
+    width: 500px;
 }
 
 /* 
