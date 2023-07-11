@@ -1,0 +1,13 @@
+#log {
+    border: 1px solid black;
+    height: 50px;
+}
+
+#face {
+    border: 1px solid blue;
+    height: 50px;
+}
+
+div {
+    margin: 100px;
+}
