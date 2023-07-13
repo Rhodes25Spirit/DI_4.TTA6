@@ -34,7 +34,7 @@ body {
 }
 
 #top-nav-ul>li>a {
-    color: rgb(38, 48, 83);
+    color: rgb(63, 52, 52);
     font-weight: bold;
     height: 100%;
     font-size: 25px;
@@ -46,44 +46,30 @@ body {
     justify-content: center;
 }
 
-#MoonKnight {
+#Moon Knight {
     margin-top: 400px;
     padding-left: 80px;
+
+
 }
 
-#MarcSpector {
-    color: rgb(208, 234, 232);
+#Marc Spector {
+    color: white;
     text-align: left;
-    font-size: 30px;
+    font-size: 15px;
     padding-right: 50px;
-    cursor: pointer;
-
-
+    background-image: url(fond-hover.bmp)
 }
 
-#moonImage {
-    width: 400px;
-    height: 350px;
-    display: none;
-}
-
-#MarcSpector:hover+#moonImage {
-    display: block;
-}
+/* 
+#Marc Spector: hover {
+    <a href="https: //aiptcomics.com/wp-content/uploads/2016/12/MOONKN2016010_int2-1.jpeg" title="Moon Knight"></a> */
 
 #desc {
-    color: rgb(111, 176, 181);
-    font-size: 19px;
+    color: white;
+    font-size: 15px;
     height: 620px;
     width: 430px;
     text-align: justify;
     width: 40%;
-    padding-right: 50px;
 }
-
-strong {
-    color: rgb(85, 216, 225);
-    font-size: 21px;
-}
-
-/* Faire le meme montage que le survol titre et image pour le partagraphe de description */
