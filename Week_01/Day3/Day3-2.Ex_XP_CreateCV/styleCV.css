@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxanium', cursive;
+    background-color: #b664f69c;
+    margin: 30px 50px;
+    line-height: 1.4;
+
+}
+
+.header {
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: rgb(244, 255, 191);
+}
+
+i {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25% 85%;
+}
+
+
+.header .image {
+    border-radius: 60%;
+    border-color: black solid 2 px;
+}
+
+.main {
+    background-color: rgb(197, 248, 248);
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(5, 1fr);
+
+}
+
+.item {
+    margin: 20px;
+}
+
+.profile {}
+
+.education {}
+
+.competence {}
+
+.experience {}
+
+.details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.langue {
+    font-size: x-large;
+}

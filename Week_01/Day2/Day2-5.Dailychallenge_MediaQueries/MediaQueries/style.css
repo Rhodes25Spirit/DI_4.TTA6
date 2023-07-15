@@ -73,3 +73,10 @@ body {
     text-align: justify;
     width: 40%;
 }
+
+
+/* 
+@media screen and (max-width: 500px) nav a {
+    float: none;
+    display: block;
+} */
