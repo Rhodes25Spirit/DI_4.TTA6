@@ -15,8 +15,3 @@ elif 12 <= month <= 2:
     print("Winter")
 else:
     print("Wrong, return to school!")
-
-
-# day = int(input("what is your birth day (number)? \n"))
-# month = int(input("what is your birth month (number)? \n"))
-# year = int(input("what is your birth month (number)? \n"))
