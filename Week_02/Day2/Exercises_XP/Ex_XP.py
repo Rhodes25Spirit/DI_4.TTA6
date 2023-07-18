@@ -84,15 +84,15 @@
 
 # ______________________
 # EX8:
-# top_ping = input("Add toppings\n")
-# topping_count = 0
-# while top_ping != "quit":
-#     top_ping = input("Add your toppings or quit\n")
-#     print("we will add to your pizza ")
-#     topping_count = topping_count + 1
+top_ping = input("Add toppings\n")
+topping_count = 0
+while top_ping != "quit":
+    top_ping = input("Add your toppings or if you have finish, write: 'quit'\n")
+    print("we will add to your pizza ")
+    topping_count = topping_count + 1
 
-# totalprice = 10 + (2.5 * topping_count)
-# print(f"You add {topping_count} toppings and the total price is {totalprice} ")
+totalprice = 10 + (2.5 * topping_count)
+print(f"You add {topping_count} toppings and the total price is {totalprice} ")
 
 # ______________________
 # EX9:
