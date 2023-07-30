@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DI_2.Documents Perso/Mimo"
+		}
+	],
+	"settings": {
+		"css.format.braceStyle": "expand"
+	}
+}
