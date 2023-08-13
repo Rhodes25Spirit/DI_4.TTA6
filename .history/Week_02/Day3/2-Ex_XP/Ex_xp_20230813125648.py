@@ -4,7 +4,7 @@
 
 # for item in zip(keys, values):
 #     print(item)
-# dict_result = dict(zip(keys, values))
+
 
 # # Exercise 2 : Cinemax
 # family = {"rick": 43, "beth": 13, "morty": 5, "summer": 8}
@@ -25,7 +25,7 @@
 # ticket_count = 0
 # family_dict = {}
 # while True:
-#     family_inp = input("Next member separated by a space or if you finish, write: 'quit'\n")
+#     family_inp = input("Next member or if you finish, write: 'quit'\n")
 #     if family_inp=="quit":
 #         break
 #         ticket_count = ticket_count + 1

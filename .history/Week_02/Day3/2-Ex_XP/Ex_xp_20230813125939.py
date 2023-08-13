@@ -25,7 +25,7 @@
 # ticket_count = 0
 # family_dict = {}
 # while True:
-#     family_inp = input("Next member separated by a space or if you finish, write: 'quit'\n")
+#     family_inp = input("Next member separetate with space only or if you finish, write: 'quit'\n")
 #     if family_inp=="quit":
 #         break
 #         ticket_count = ticket_count + 1

@@ -28,4 +28,4 @@ for letter2 in cryptedtext2:
         uncryptedtext2 += alphabet[letter2index + 3]
 print(uncryptedtext2)
 
-# Why the invert of the code does not work. Please some help.
+# Why the invert of the code doesnot work. Please some help.
