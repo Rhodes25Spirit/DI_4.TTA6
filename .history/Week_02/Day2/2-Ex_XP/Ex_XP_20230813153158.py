@@ -46,25 +46,20 @@
 # ______________________
 # EX4:
 
-# ans1: Float decimal number, integer is a whole number or digit
-# ans2: The Python range() works only with integers. It doesn’t support the float type or with "numpy module"
-# ans3:
+# ans: Float decimal number, integer is a whole number or digit
+# ans: The Python range() works only with integers. It doesn’t support the float type or with "numpy module"
 # stt = float(1)
-#  correct:
-stt = int(1)
-seq_1 = stt + 1
-for seq_1 in stt + 0.5:  # TypeError: 'float' object is not iterable
-    print(seq_1)
-
-
+# seq_1 = stt + 1
+# for seq_1 in stt + 0.5:  # TypeError: 'float' object is not iterable
+#     print(seq_1)
 
 # ______________________
 # EX5:
-# numbers = range(1, 21)
-# for num in numbers:
+# nbrs = range(1, 21)
+# for num in nbrs:
 #     print(num)
 
-# for num, dig in enumerate(numbers):
+# for num, dig in enumerate(nbrs):
 #     if num % 2 == 0:
 #         print(dig)
 
@@ -96,8 +91,8 @@ while top_ping != "quit":
     print("we will add to your pizza ")
     topping_count = topping_count + 1
 
-total_price = 10 + (2.5 * topping_count)
-print(f"You add {topping_count} toppings and the total price is {total_price} ")
+totalprice = 10 + (2.5 * topping_count)
+print(f"You add {topping_count} toppings and the total price is {totalprice} ")
 
 # ______________________
 # EX9:
@@ -110,7 +105,7 @@ print(f"You add {topping_count} toppings and the total price is {total_price} ")
 
 # price = []
 # print(len(family))
-# ## convert family_list  into integer
+# ## convert family_list  into integrer
 # for age in family:
 #     if age < 3:
 #         price.append(0)
@@ -125,23 +120,24 @@ print(f"You add {topping_count} toppings and the total price is {total_price} ")
 # ______________________
 # EX10:
 
-sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
+sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich",
+                   "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
 
 while "Pastrami sandwich" in sandwich_orders:
     sandwich_orders.remove("Pastrami sandwich")
 
 print("Deli has run out of pastrami.")
 print(sandwich_orders)
-finished_sandwiches = []
+finished_sandwichs = []
 
 for sand in sandwich_orders:  # 1st loop
     sandwich_orders.pop(1)
-    finished_sandwiches.append(sand)
+    finished_sandwichs.append(sand)
 
-for sandfin in finished_sandwiches:
+for sandfin in finished_sandwichs:
     print(f"your {sandfin} is ready.")
 
-# Why only 2 sandwiches (Tuna and Egg) move from sandwich_orders to the finished_sandwiches ? I would like to have a loop of the 1st loop.
+# Why only 2 sandwiches (Tuna and Egg) move from sandwich_orders to the finished_sandwichs ? I would like to have a loop of the 1st loop.
 
 print(sandwich_orders)
-print(finished_sandwiches)
+print(finished_sandwichs)
